@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ed38ded873.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contato</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+             <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Oi, eu sou <span>João Equer</span><br>Front-end Developer</h1>
+             </div>
+        </div>
+    </div>
+    <!---------About-------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user2.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Sobre</h1>
+                <p>Sou um desenvolvedor front-end altamente focado, determinado e apaixonado por tecnologia. Minha busca incessante por conhecimento me levou a explorar diversas tecnologias, como HTML, CSS, JavaScript, React, Angular e Vue.js. Estou sempre atualizado com as últimas tendências e sempre em busca de projetos desafiadores para aprimorar minhas habilidades. Comunicativo e colaborativo, busco contribuir para projetos inovadores e impactantes, utilizando meu conhecimento para criar experiências web incríveis.</p>
+                
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Habilidades</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experiência</p>
+                    <p class="tab-links" onclick="opentab('education')">Educação</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Projetando interfaces web/aplicativos</li>
+                            <li><span>Desenvolvimento web</span><br>Desenvolvimento de aplicativos Web</li>
+                            <li><span>Desenvolvimento de Aplicativos</span><br>Criando aplicativos Android/iOS</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>UI/UX Design Training at ET</li>
+                            <li><span>2019 - 2021</span><br>Team lead at StarApp LLC.</li>
+                            <li><span>2017 - 2019</span><br>UI/UX Design Executive at Coin Digital LTD.</li>
+                            <li><span>2016 - 2017</span><br>Internship at ekart eCommerce.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021</span><br>Analise e Desenvolvimento de Software - Descomplica </li>
+                        <li><span>2019</span><br>Escape de Aeronave Submersa - HUET</li>
+                            <li><span>2019</span><br>Segurança de Plataforma - CBSP</li>
+                            <li><span>2007</span><br>Informática Avançada - FAETEC </li>
+                    </ul>
+                </div>
+            </div>      
+        </div>
+</div>
+<!---------------------services---------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Meus Serviços</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Transformando ideias em experiências digitais cativantes - Serviços de Webdesigner.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Criando experiências digitais envolventes e intuitivas - Serviços de UI/UX Designer.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Design inovador para aplicativos que cativam e encantam - Serviços de App Designer.</p>
+                <a href="#">Saiba Mais</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------portfolio--------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Meu Hobby</h1>
+        <div class="work-list">
+            <div class="work">
+            <img src="images/work1-1.jpg">
+            <div class="layer">
+                <h3>Equipamento</h3>
+                <p>Explorando a arte da fotografia através da minha Canon eos40d. Capturando momentos únicos e revelando a beleza oculta em cada clique. Minha paixão e habilidade combinam-se para criar histórias visuais emocionantes, retratando paisagens deslumbrantes e retratos cheios de vida. Cada fotografia é uma oportunidade de eternizar momentos preciosos e compartilhar minha visão artística com o mundo.</p>
+                <a href="#"><i class="fa-solid fa-camera"></i></a>
+            </div>
+        </div>
+            <div class="work">
+            <img src="images/work2-2.jpg">
+            <div class="layer">
+                <h3>Cidade</h3>
+                <p>Olhando além dos arranha-céus: Descobrindo a alma da cidade através das minhas lentes.</p>
+                <a href="#"><i class="fa-solid fa-building"></i></a>
+            </div>
+        </div>
+            <div class="work">
+            <img src="images/work3-3.jpg">
+            <div class="layer">
+                <h3>Natureza Hybrida</h3>
+                <p>A beleza intocada da natureza: Capturando momentos preciosos da vida selvagem e paisagens serenas através das minhas lentes.</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">Saiba Mais</a>
+</div>
+<!----------contact--------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contato</h1>
+                <p><i class="fas fa-paper-plane"></i> joaovictorequer@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> (21)975026018</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/joaovictor.equer/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/victorequer"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/joaovictorequer/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-equer-5033b8209/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>   
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Seu Nome" required>
+                    <input type="email" name="Email" placeholder="Seu email" required>
+                     <textarea name="mensagem" rows="6" placeholder="Seu Assunto"></textarea>
+                     <button type="submit" class="btn btn2">Enviar</button>                  
+                </form>
+                <span id="msg">Foi um prazer!</span>
+            </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>copyright Dev.Jão <i class="fas fa-heart"></i>  </p>
+    </div>
+<script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+</script>
+
+<script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+                    sidemeu.style.right = "0";
+                }
+        function closemenu() {
+                    sidemeu.style.right = "-200px";
+                }
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxTtj3y9g8eXfVoNetZJucdSCQ6j7LHLclmHsJM8wipyLlFoHGs-ZtDot7u60KRmgzd/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = docment.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Mensagem enviada com sucesso"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
