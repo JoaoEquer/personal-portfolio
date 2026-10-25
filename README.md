@@ -1,21 +1,38 @@
 # personal-portfolio
 
-Site de portfólio pessoal de João Equer (front-end developer), em HTML e CSS, página única.
+Portfólio pessoal de João Equer, front-end developer, em página única de HTML e CSS.
 
-**Demo:** https://joaoequer.github.io/personal-portfolio/
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Font Awesome](https://img.shields.io/badge/-Font%20Awesome-528DD7?logo=fontawesome&logoColor=white)
 
-## Conteúdo da página
+## Sobre
 
-- Cabeçalho com menu de navegação (Home, Sobre, Serviços, Portfolio, Contato).
-- Seções: Sobre, Meus Serviços (Web Design, UI/UX Design, App Design), Meu Hobby (galeria de fotos) e Contato.
-- Links para redes sociais (Facebook, Instagram, LinkedIn) e botão de download do currículo em PDF.
+Site de apresentação com habilidades, experiência, serviços e contato. Projeto de estudo e vitrine pessoal, atualizado aos poucos.
+
+Demo: https://joaoequer.github.io/personal-portfolio/
+
+## Funcionalidades
+
+- Menu de navegação por âncoras (Home, Sobre, Serviços, Portfolio, Contato).
+- Seção Sobre com abas Habilidades, Experiência e Educação.
+- Seções de serviços, galeria "Meu Hobby" e contato.
+- Links de redes sociais e download do currículo em PDF.
+- Layout responsivo (media query para telas até 600px).
 - Alguns links ainda marcados como "Em Desenvolvimento...".
 
-## Tecnologias
+## Stack
 
-HTML5, CSS3, um pouco de JavaScript inline (no próprio `index.html`) e ícones Font Awesome (via kit externo, precisa de internet).
+| Tecnologia | Para que serve aqui |
+|---|---|
+| HTML5 | Estrutura da página única |
+| CSS3 | Estilos e responsividade (fonte Poppins) |
+| JavaScript | Scripts inline: troca de abas e menu |
+| Font Awesome (kit externo) | Ícones; exige internet |
+| GitHub Pages | Hospedagem |
 
-## Como abrir
+## Como rodar
 
 Sem build nem dependências: abra `index.html` no navegador.
 
@@ -29,4 +46,4 @@ images/       fotos, logos e PDFs do currículo
 
 ## Status
 
-Projeto de estudo e portfólio pessoal, em atualização contínua.
+Em atualização contínua.
