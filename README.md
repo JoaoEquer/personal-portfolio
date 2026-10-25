@@ -1,4 +1,4 @@
-# personal-portfolio
+﻿# personal-portfolio
 
 Portfólio pessoal de João Equer, front-end developer, em página única de HTML e CSS.
 
@@ -18,7 +18,6 @@ Demo: https://joaoequer.github.io/personal-portfolio/
 - Menu de navegação por âncoras (Home, Sobre, Serviços, Portfolio, Contato).
 - Seção Sobre com abas Habilidades, Experiência e Educação.
 - Seções de serviços, galeria "Meu Hobby" e contato.
-- Links de redes sociais e download do currículo em PDF.
 - Layout responsivo (media query para telas até 600px).
 - Alguns links ainda marcados como "Em Desenvolvimento...".
 
@@ -41,7 +40,7 @@ Sem build nem dependências: abra `index.html` no navegador.
 ```
 index.html    página única
 style.css     estilos
-images/       fotos, logos e PDFs do currículo
+images/       fotos e logos
 ```
 
 ## Status
